@@ -10,5 +10,5 @@ Note that the authorized_keys file is just an empty stub file (even though they'
 Note that the account username and/or password should be updated as needed.
 
 ## Building:
-docker build -t alpine-ssh .
-docker run -d --name alpine-ssh -p 2522:22 alpine-ssh
+`docker build -t alpine-ssh .`  
+`docker run -d --name alpine-ssh -p 2522:22 alpine-ssh`  
