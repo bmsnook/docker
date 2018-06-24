@@ -15,4 +15,6 @@ Note that the account username and/or password should be updated as needed.
 
 ## Sharing the Container:
 `docker commit alpine-ssh bmsnook/alpine-ssh`  
+`git remote add origin git@github.com:bmsnook/docker.git`  
+`git push -u origin master`  
 
